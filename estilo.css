@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 4px;
+
+}
+body {
+    background-color: #1a1919;
+    height: 100vh;
+
+}
+
+.formatação{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    max-width: 100%;
+    align-items: 30px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+header a{
+    background-color: #1a1919;
+    color: #eeeaea;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+   }
+
+button{
+    color: #fff;
+    background: #8d1a8d;
+    border:solid 1px #8d1a8d;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.formatação-texto-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px 1%;
+}
+
+.imagem{
+    border-radius:48%;
+    border: 2px solid #8d1a8d;
+    background: #8d1a8d;
+    -webkit-margin-before: 80px;
+
+}
+
+/* Texto Principal */
+
+.texto-principal h1{
+    color: #fff;
+    font-size: 38px;
+    padding: 40px 1%;
+}
+
+.texto-principal h2{
+    color: #fff;
+    font-size: 38px;
+    padding: 10px 1%;
+}
+
+.texto-principal p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 1%;
+}
+
+.portfolio h1{
+    color: #fff;
+    font-size: 38px;
+    padding: 40px 1%;
+    justify-content: center;
+    text-align: center;
+}
+
+.formacao-educacional h1{
+    color: #fff;
+    font-size: 38px;
+    padding: 40px 1%;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagem_formacao{
+    justify-content: center;
+    text-align: center;
+    -webkit-margin-before: 35px;
+    -webkit-margin-after: 0px;
+
+}
+
+.portfolio{
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.formato_port{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 1rem; 
+}
+
+.contato{
+    color: #fff;
+    font-size: 21px;
+    padding: 40px 1%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* Para ver as bordas do formulário */
+    padding: 10px;
+    border: 3px solid #8d1a8d;
+    border-radius: 1em;
+    gap: 10px;
+    
+  }
+
+  label {
+    /*labels tem o mesmo tamanho e estão alinhadas */
+    width: 110px;
+    text-align: right;
+    display: inline-flex;
+  }
+
+  input{
+  /* mesmo tamanho a todos os campo de input */
+  width: 500px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea{
+    /* mesmo tamanho a todos os campo de text */
+    width: 500px;
+    height: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: vertical;
+    vertical-align: top;
+  }
+
+  footer a{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    border: 3px solid #8d1a8d;
+    border-radius: 1em;
+}
+
+

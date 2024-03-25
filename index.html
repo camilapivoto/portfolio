@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Camila Pivoto</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Criação dos links para a pasta CSS -->
+</head>
+
+<body>
+    <div class="formatação"> <!-- Criação de classe para configurar tela do site -->
+
+        <header>
+            <div class="menu página"> <!-- Criação dos links da página -->
+                <ul>
+                    <li><a href="index.html"> Sobre mim</a></li>
+                    <li><a href="#formacao-educacional">Formação Educacional</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <a href="#contato"><button>Contato</button></a>
+                </ul>
+            </div> <!--menu pagina-->
+        </header>
+
+        <div class="formatação-texto-principal">
+            <div class="imagem"> <!-- Criação da imagem -->
+                <img src="imagens/minha_foto.png" alt="">
+            </div> <!--criação da imagem-->
+
+            <div class="texto-principal"> <!-- Criação do texto principal -->
+                <h1>Olá,</h1>
+                <h2>Eu sou a <span>Camila Silva Pivoto</span></h2>
+                <p>Formada em Engenharia de Produção, atuando como Técnica de Processo em uma empresa de tecnologia.
+                    Sempre fui interessada pela área de TI e devido as
+                    perspectivas promissoras da área decidi iniciar em Análise e Desenvolvimento de Sistemas.</p>
+            </div><!--texto-principal-->
+        </div> <!--formatação-texto-principal-->
+
+        <div class="formacao-educacional"> <!--Criação do conteudo para formação educacional-->
+            <div id="formacao-educacional"></div>
+            <h1>Formação Educacional</h1>
+            <div class="imagem_formacao"> <!-- Criação da imagem -->
+                <img src="imagens/minha_formação.png" alt="">
+            </div>
+        </div> <!--Formação Educacional-->
+    </div> <!--formatação-->
+
+    <section class="portfolio"> <!--Criação do conteudo para o portfolio-->
+        <div id="portfolio"></div>
+        <div class="portfolio">
+            <h1>Portfólio</h1>
+            <p> Aqui está alguns projetos desenvolvidos por mim durante o curso. Para visualizar é so clicar na imagem
+            </p>
+            <div class="formato_port">
+                <li><a href="https://scratch.mit.edu/projects/768094755" target="_blank"><img src="imagens/pong.png"
+                            alt=""></a></li>
+                <li><a href="https://scratch.mit.edu/projects/899567234" target="_blank"><img
+                            src="imagens/dinossauro.png" alt=""></a>
+                </li>
+            </div> <!--formato_port-->
+        </div> <!--portfolio-->
+    </section>
+
+    <div class="contato"> <!--Criação do formulario para o contato-->
+        <div id="contato"></div>
+        <h1>Contato</h1>
+        <form action="/processa-dados-do-form" method="post">
+            <div>
+                <label for="nome">Nome:</label> <input type="text" id="nome" />
+            </div>
+            <div>
+                <label for="email">E-mail:</label> <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label> <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div> <!--Contato-->
+
+    <footer> <!--Criação do rodapé-->
+        <li><a href="https://github.com/camilapivoto" target="_blank"><img src="imagens/github.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/camila-silva-pivoto/" target="_blank"><img src="imagens/linkedin.png"
+                    alt=""></a></li>
+    </footer>
+</body>
+
+</html>
